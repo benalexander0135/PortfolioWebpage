@@ -6,6 +6,9 @@ body {
   background-color: #f4f1de;
   text-align: center;
 }
+a:link {
+  color: blue;
+}
 /* below I define colors, sizes, and fonts for each section of the page. */
 h1, h2, p {
   color: #e07a5f;
