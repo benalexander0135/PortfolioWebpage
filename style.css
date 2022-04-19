@@ -52,6 +52,10 @@ header div nav a {
   color: #000000;
 }
 
+ol {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
 nav,
 div {
   width: 750px;
@@ -63,6 +67,12 @@ main div p {
 }
 
 main div {
+  border: 3px solid #3d405b;
+  padding: 10px;
+  background-color: #81b29a;
+}
+ 
+ol {
   border: 3px solid #3d405b;
   padding: 10px;
   background-color: #81b29a;
