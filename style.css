@@ -11,7 +11,7 @@ header div nav a:hover {
   color: #668284;
 }
 
-h1, h2, p {
+h1, h2, p, ol {
   color: #000000;
   font-size: 14px;
 }
@@ -25,12 +25,14 @@ main div header h2 {
   font-size: 24px;
 }
 
-main div p {
+main div p,
+main div ol {
   font-size: 16px;
 }
 
-main div header h2 , 
+main div header h2, 
 main div p, 
+main div ol, 
 footer div nav p {
   text-align: center;
 }
@@ -63,7 +65,8 @@ div {
   height: auto;
 }
 
-main div p {
+main div p, 
+main div ol {
   color: #000000;
 }
 
