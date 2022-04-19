@@ -1,9 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+/*defining background color and text-align for rest of page*/
 body {
   margin: 0;
   background-color: #f4f1de;
   text-align: center;
+}
+/*hover pseudo-class for links in header*/
+header div nav a:hover {
+  color: #668284;
 }
 
 h1, h2, p {
