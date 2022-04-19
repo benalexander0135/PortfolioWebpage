@@ -9,7 +9,15 @@ body {
 
 /* below I define colors, sizes, and fonts for each section of the page. */
 a:link {
-  color: blue;
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF00FF;
 }
 
 h1, h2, p {
