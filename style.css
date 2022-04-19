@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+body {
+  margin: 0;
+  background-color: #f4f1de;
+  text-align: center;
+}
+
+h1, h2, p {
+  color: #e07a5f;
+  font-size: 14px;
+}
+
+header h1 {
+  color: #e07a5f;
+}
+
+main div header h2 {
+  color: #f2cc8f;
+  font-size: 24px;
+}
+
+main div p {
+  font-size: 16px;
+}
+
+main div  {
+  color: #f2cc8f;
+  font-size: 24px;
+}
+
+main div header h2 , 
+main div p, 
+footer div nav p {
+  text-align: center;
+}
+
+h1,
+ul,
+nav > p {
+  margin: 0;
+  padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  font-family: 'Roboto Slab', serif;
+}
+
+header div h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+header div nav {
+  margin: 0 0 10px 10px;
+}
+
+header div nav a {
+  padding: 0 15px 10px 20px;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  color: #3d405b;
+}
+
+header div nav a:hover {
+  color: #f2cc8f;
+}
+
+nav,
+div {
+  width: 750px;
+  margin: auto;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main div p {
+  color: #3d405b;
+}
+
+main div {
+  border: 3px solid #3d405b;
+  padding: 10px;
+  background-color: #81b29a;
+}
+
+main div:first-of-type {
+  border-bottom: none;
+}
+
+footer nav p {
+  color: #668284;
+}
