@@ -1,36 +1,22 @@
-/* starting by importing the Roboto Slab font family */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
-/* here I define the main background color and align text to center for the entire page */
 body {
   margin: 0;
   background-color: #f4f1de;
   text-align: center;
 }
 
-/* below I define colors, sizes, and fonts for each section of the page. */
-a:link {
-  color: #FF0000;
-}
-
-a:visited {
-  color: #00FF00;
-}
-
-a:hover {
-  color: #FF00FF;
-}
-
 h1, h2, p {
-  color: #e07a5f;
+  color: #000000;
   font-size: 14px;
 }
 
 header h1 {
-  color: #000000;
+  color: #e07a5f;
 }
 
 main div header h2 {
-  color: #000000;
+  color: ##000000;
   font-size: 24px;
 }
 
@@ -81,10 +67,3 @@ main div {
   padding: 10px;
   background-color: #81b29a;
 }
-
-#Section-3 {
-  border: 3px solid #3d405b;
-  padding: 10px;
-  background-color: #81b29a;
-}
-
