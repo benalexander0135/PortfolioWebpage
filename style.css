@@ -56,6 +56,7 @@ nav,
 div {
   width: 750px;
   margin: auto;
+  height: auto;
 }
 main div p {
   color: #000000;
@@ -65,5 +66,4 @@ main div {
   border: 3px solid #3d405b;
   padding: 10px;
   background-color: #81b29a;
-  height: 500px;
 }
