@@ -1,11 +1,12 @@
-
+/* starting by importing the Roboto Slab font family */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+/* here I define the main background color and align text to center for the entire page */
 body {
   margin: 0;
   background-color: #f4f1de;
   text-align: center;
 }
-
+/* below I define colors, sizes, and fonts for each section of the page. */
 h1, h2, p {
   color: #e07a5f;
   font-size: 14px;
