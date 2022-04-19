@@ -25,22 +25,10 @@ main div p {
   font-size: 16px;
 }
 
-main div  {
-  color: #f2cc8f;
-  font-size: 24px;
-}
-
 main div header h2 , 
 main div p, 
 footer div nav p {
   text-align: center;
-}
-
-h1,
-ul,
-nav > p {
-  margin: 0;
-  padding: 10px;
 }
 
 header,
@@ -57,10 +45,6 @@ header div h1 {
   font-family: 'Roboto Slab', serif;
 }
 
-header div nav {
-  margin: 0 0 10px 10px;
-}
-
 header div nav a {
   padding: 0 15px 10px 20px;
   text-decoration: none;
@@ -68,22 +52,11 @@ header div nav a {
   color: #3d405b;
 }
 
-header div nav a:hover {
-  color: #f2cc8f;
-}
-
 nav,
 div {
   width: 750px;
   margin: auto;
 }
-
-nav:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 main div p {
   color: #3d405b;
 }
@@ -92,12 +65,4 @@ main div {
   border: 3px solid #3d405b;
   padding: 10px;
   background-color: #81b29a;
-}
-
-main div:first-of-type {
-  border-bottom: none;
-}
-
-footer nav p {
-  color: #668284;
 }
