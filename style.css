@@ -60,7 +60,7 @@ header div nav a {
 
 ol.center-list{
   display: table;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   list-style-position: inside;
 }
