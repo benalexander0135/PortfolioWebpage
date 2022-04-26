@@ -57,10 +57,12 @@ header div nav a {
   font-family: 'Roboto Slab', serif;
   color: #000000;
 }
-#section_3 {
-  width: 750px;
-  margin: auto;
-  height: auto;
+
+ol.center-list{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
 }
 
 nav,
